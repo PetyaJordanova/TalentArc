@@ -36,7 +36,7 @@ const TalentArc = () => {
   };
 
   return (
-    <div style={{ fontFamily: "'Josefin Sans', sans-serif" }}>
+    <div style={{ fontFamily: "'Josefin Sans', sans-serif", overflowX: 'hidden', width: '100%', maxWidth: '100vw' }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Crimson+Pro:wght@400;600;700;900&display=swap');
 
@@ -52,6 +52,7 @@ const TalentArc = () => {
           background: #FFFFFF;
           line-height: 1.7;
           -webkit-font-smoothing: antialiased;
+          overflow-x: hidden;
         }
 
         /* Navigation */
