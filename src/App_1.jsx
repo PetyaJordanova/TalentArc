@@ -289,3 +289,4 @@ const TalentArc = () => {
 };
 
 export default TalentArc;
+
